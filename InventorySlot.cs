@@ -13,7 +13,6 @@ public class InventorySlot : MonoBehaviour
 
         icon.sprite = item.icon;
         icon.enabled = true;
-        //Button staje się widzialny 
     }
 
     public void ClearSlot()
@@ -22,6 +21,5 @@ public class InventorySlot : MonoBehaviour
 
         icon.sprite = null;
         icon.enabled = false;
-        //Button przestaje działać
     }
 }
